@@ -1,0 +1,24 @@
+{
+	"airlines": {
+		"LLBG": {
+			"request": {
+				"url": "https://www.iaa.gov.il/umbraco/surface/FlightBoardSurface/Search",
+				"body": {
+					"FlightType": "Outgoing",
+					"AirportId": "LLBG",
+					"UICulture": "en-US"
+				}
+			},
+			"response": {
+				"subTo": "Flights",
+				"airline": "Airline",
+				"destinationCity": "City",
+				"flightCode": "Flight",
+				"scheduleDate": "ScheduledDate",
+				"scheduleTime": "ScheduledDateTime",
+				"updateDate": "UpdatedDate",
+				"updateTime": "UpdatedTime"
+			}
+		}
+	}
+}

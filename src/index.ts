@@ -1,0 +1,1 @@
+export { DepartureBoardsPkg } from "./departureBoards";
